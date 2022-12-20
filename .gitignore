@@ -1,0 +1,42 @@
+# Covers JetBrains IDE
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# IntelliJ:
+/out/
+.idea/
+.idea_modules/
+.bsp/
+
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+/project/project/
+
+# Any kind of log file
+*.log
+logs/
+
+# Repo Specific
+.vscode/
+.metals/
+.bloop/
+spark-warehouse/
+
+# Spark
+
+/checkpoints/
+/Already up to date/
+/output/
+offsets.txt
+deployables/
+data/
+/results/
+*.zip
+*.csv
+.DS_Store
